@@ -38,10 +38,35 @@ class Rapter:
         
         # Send the stock key as an input
         
-        self.stockQuantityField.send_keys()
+        self.stockQuantityField.send_keys(self.stockCode)
+        input("Hit Enter to continue")
 
-    def GenerateReport(self):
-        pass
+    def GenerateReport(self, 
+                       investment,
+                       acquirePrice,
+                       sellPrice,
+                       priceScale,
+                       intraday
+                       ):
+        # Choosing for both Intraday & Delivery
+        self.intraButton.click() if self.intraDayMode else self.deliveryButton.click() if intraday != 2 else print()
+        
+        def analyseProfits(
+            investment,
+            buyPrice,
+            sellPrice
+        ):
+            
+            # Calculating Number of Stocks 
+            total_stocks = (investment / buyPrice) 
+            total_stocks = str(total_stocks)[:-2]
+            
+            # Clearing the prefilled values
+            self.stockQuantityField.clear()
+            self.buyPriceField.clear()
+            self.sellPriceField.clear()
+    
+
         
         
                 
