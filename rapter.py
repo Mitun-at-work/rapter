@@ -48,8 +48,17 @@ class Rapter:
                        priceScale,
                        intraday
                        ):
-        # Choosing for both Intraday & Delivery
+        # Choosing for both Intraday & Delivery89
         self.intraButton.click() if self.intraDayMode else self.deliveryButton.click() if intraday != 2 else print()
+        
+        for primaryPoint in range(len(acquirePrice)) :
+            for secondaryPoint in range(len(sellPrice)) : 
+                analyseProfits(
+                    investment,
+                    acquirePrice[primaryPoint],
+                    sellPrice[secondaryPoint],
+                    
+                )
         
         def analyseProfits(
             investment,
@@ -65,6 +74,18 @@ class Rapter:
             self.stockQuantityField.clear()
             self.buyPriceField.clear()
             self.sellPriceField.clear()
+            
+            # Sending keyStroke
+            self.stockQuantityField.send_keys(f"{total_stocks}")
+            self.buyPriceField.send_keys(f"{buyPrice}")
+            self.sellPriceField.send_keys(f"{sellPrice}")
+            
+            # Reading Value
+            netProfit = self.driver.find_element(By.XPATH, self.netProfitXpath)
+            profit = netProfit.text
+            
+            # returning the analysed data
+            return (total_stocks, profit)
     
 
         
