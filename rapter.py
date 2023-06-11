@@ -7,10 +7,10 @@ from selenium.webdriver.common.by import By
 # Rapter Class declaration
 
 class Rapter:
-    
     def __init__(self, stockCode) -> None:
         self.targetUrl =    "https://upstox.com/calculator/brokerage-calculator/"
         self.stockCode = stockCode
+        self.yfinanceCode = f"{self.stockCode}.NS"
         self.defaultXpath = "/html/body/div[2]/section[1]/section[3]/div/div/form/div/div[2]/div/div[3]/"
         self.stockQuantityXpath = f"{self.defaultXpath}div[1]/input"
         self.buyPriceXpath    =   f"{self.defaultXpath}div[2]/input"
@@ -32,12 +32,11 @@ class Rapter:
         self.buyPriceField = self.driver.find_element.find_element(By.XPATH, self.buyPriceXpath)
         self.sellPriceField = self.driver.find_element.find_element(By.XPATH, self.sellPriceXpath)
         
-        # Fetch IntraDay / delivery Options
+        # Fetch IntraDay / Delivery Options
         self.deliveryButton = self.driver.find_element.find_element(By.XPATH, self.deliveryXpath)
         self.intraButton = self.driver.find_element.find_element(By.XPATH, self.intraDayXpath)
         
         # Send the stock key as an input
-        
         self.stockQuantityField.send_keys(self.stockCode)
         input("Hit Enter to continue")
 
@@ -57,8 +56,7 @@ class Rapter:
                     investment,
                     acquirePrice[primaryPoint],
                     sellPrice[secondaryPoint],
-                    
-                )
+                ) 
         
         def analyseProfits(
             investment,
@@ -86,7 +84,9 @@ class Rapter:
             
             # returning the analysed data
             return (total_stocks, profit)
-    
+
+    def fetchChart(self): pass
+        
 
         
         
