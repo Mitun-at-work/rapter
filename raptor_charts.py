@@ -44,3 +44,4 @@ class RaptorCharts:
         ax.legend(loc='upper left', ncols=3)
         plt.savefig(f"img{self.count}")
         self.count +=1
+        

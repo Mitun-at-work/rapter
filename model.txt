@@ -1,0 +1,11 @@
+  stockDict = {
+            "0.70 - 0.80" : [
+                {
+                    "Investment" : 200,
+                    "Profit" : 200,
+                    "Quantity" : 2000
+                },
+                {},
+                {},
+            ]
+        }

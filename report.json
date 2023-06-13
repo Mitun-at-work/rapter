@@ -1,0 +1,698 @@
+{
+    "0.75 - 0.8": [
+        {
+            "Investment": 10000,
+            "Stocks Acquired": "13333",
+            "IntraDay Profits": "650.63",
+            "Delivery Profits": "574.59"
+        },
+        {
+            "Investment": 9500,
+            "Stocks Acquired": "12666",
+            "IntraDay Profits": "618.08",
+            "Delivery Profits": "542.39"
+        },
+        {
+            "Investment": 9000,
+            "Stocks Acquired": "12000",
+            "IntraDay Profits": "585.58",
+            "Delivery Profits": "510.24"
+        },
+        {
+            "Investment": 8500,
+            "Stocks Acquired": "11333",
+            "IntraDay Profits": "553.03",
+            "Delivery Profits": "478.04"
+        },
+        {
+            "Investment": 8000,
+            "Stocks Acquired": "10666",
+            "IntraDay Profits": "520.48",
+            "Delivery Profits": "445.84"
+        },
+        {
+            "Investment": 7500,
+            "Stocks Acquired": "10000",
+            "IntraDay Profits": "487.98",
+            "Delivery Profits": "413.69"
+        },
+        {
+            "Investment": 7000,
+            "Stocks Acquired": "9333",
+            "IntraDay Profits": "455.44",
+            "Delivery Profits": "381.50"
+        },
+        {
+            "Investment": 6500,
+            "Stocks Acquired": "8666",
+            "IntraDay Profits": "422.89",
+            "Delivery Profits": "349.31"
+        },
+        {
+            "Investment": 6000,
+            "Stocks Acquired": "8000",
+            "IntraDay Profits": "390.38",
+            "Delivery Profits": "317.15"
+        },
+        {
+            "Investment": 5500,
+            "Stocks Acquired": "7333",
+            "IntraDay Profits": "357.83",
+            "Delivery Profits": "284.95"
+        },
+        {
+            "Investment": 5000,
+            "Stocks Acquired": "6666",
+            "IntraDay Profits": "325.28",
+            "Delivery Profits": "252.75"
+        },
+        {
+            "Investment": 4500,
+            "Stocks Acquired": "6000",
+            "IntraDay Profits": "292.78",
+            "Delivery Profits": "220.60"
+        },
+        {
+            "Investment": 4000,
+            "Stocks Acquired": "5333",
+            "IntraDay Profits": "260.23",
+            "Delivery Profits": "188.40"
+        },
+        {
+            "Investment": 3500,
+            "Stocks Acquired": "4666",
+            "IntraDay Profits": "227.68",
+            "Delivery Profits": "156.21"
+        },
+        {
+            "Investment": 3000,
+            "Stocks Acquired": "4000",
+            "IntraDay Profits": "195.19",
+            "Delivery Profits": "124.06"
+        },
+        {
+            "Investment": 2500,
+            "Stocks Acquired": "3333",
+            "IntraDay Profits": "162.63",
+            "Delivery Profits": "91.85"
+        },
+        {
+            "Investment": 2000,
+            "Stocks Acquired": "2666",
+            "IntraDay Profits": "130.10",
+            "Delivery Profits": "59.67"
+        },
+        {
+            "Investment": 1500,
+            "Stocks Acquired": "2000",
+            "IntraDay Profits": "97.59",
+            "Delivery Profits": "27.51"
+        },
+        {
+            "Investment": 1000,
+            "Stocks Acquired": "1333",
+            "IntraDay Profits": "65.05",
+            "Delivery Profits": "-4.68"
+        }
+    ],
+    "0.75 - 0.85": [
+        {
+            "Investment": 10000,
+            "Stocks Acquired": "13333",
+            "IntraDay Profits": "1,316.68",
+            "Delivery Profits": "1,240.54"
+        },
+        {
+            "Investment": 9500,
+            "Stocks Acquired": "12666",
+            "IntraDay Profits": "1,250.83",
+            "Delivery Profits": "1,175.03"
+        },
+        {
+            "Investment": 9000,
+            "Stocks Acquired": "12000",
+            "IntraDay Profits": "1,185.05",
+            "Delivery Profits": "1,109.62"
+        },
+        {
+            "Investment": 8500,
+            "Stocks Acquired": "11333",
+            "IntraDay Profits": "1,119.17",
+            "Delivery Profits": "1,044.10"
+        },
+        {
+            "Investment": 8000,
+            "Stocks Acquired": "10666",
+            "IntraDay Profits": "1,053.31",
+            "Delivery Profits": "978.58"
+        },
+        {
+            "Investment": 7500,
+            "Stocks Acquired": "10000",
+            "IntraDay Profits": "987.54",
+            "Delivery Profits": "913.17"
+        },
+        {
+            "Investment": 7000,
+            "Stocks Acquired": "9333",
+            "IntraDay Profits": "921.67",
+            "Delivery Profits": "847.66"
+        },
+        {
+            "Investment": 6500,
+            "Stocks Acquired": "8666",
+            "IntraDay Profits": "855.80",
+            "Delivery Profits": "782.15"
+        },
+        {
+            "Investment": 6000,
+            "Stocks Acquired": "8000",
+            "IntraDay Profits": "790.04",
+            "Delivery Profits": "716.74"
+        },
+        {
+            "Investment": 5500,
+            "Stocks Acquired": "7333",
+            "IntraDay Profits": "724.16",
+            "Delivery Profits": "651.23"
+        },
+        {
+            "Investment": 5000,
+            "Stocks Acquired": "6666",
+            "IntraDay Profits": "658.29",
+            "Delivery Profits": "585.70"
+        },
+        {
+            "Investment": 4500,
+            "Stocks Acquired": "6000",
+            "IntraDay Profits": "592.51",
+            "Delivery Profits": "520.29"
+        },
+        {
+            "Investment": 4000,
+            "Stocks Acquired": "5333",
+            "IntraDay Profits": "526.66",
+            "Delivery Profits": "454.79"
+        },
+        {
+            "Investment": 3500,
+            "Stocks Acquired": "4666",
+            "IntraDay Profits": "460.78",
+            "Delivery Profits": "389.26"
+        },
+        {
+            "Investment": 3000,
+            "Stocks Acquired": "4000",
+            "IntraDay Profits": "395.01",
+            "Delivery Profits": "323.85"
+        },
+        {
+            "Investment": 2500,
+            "Stocks Acquired": "3333",
+            "IntraDay Profits": "329.14",
+            "Delivery Profits": "258.34"
+        },
+        {
+            "Investment": 2000,
+            "Stocks Acquired": "2666",
+            "IntraDay Profits": "263.28",
+            "Delivery Profits": "192.82"
+        },
+        {
+            "Investment": 1500,
+            "Stocks Acquired": "2000",
+            "IntraDay Profits": "197.50",
+            "Delivery Profits": "127.41"
+        },
+        {
+            "Investment": 1000,
+            "Stocks Acquired": "1333",
+            "IntraDay Profits": "131.64",
+            "Delivery Profits": "61.91"
+        }
+    ],
+    "0.75 - 0.9": [
+        {
+            "Investment": 10000,
+            "Stocks Acquired": "13333",
+            "IntraDay Profits": "1,982.75",
+            "Delivery Profits": "1,906.50"
+        },
+        {
+            "Investment": 9500,
+            "Stocks Acquired": "12666",
+            "IntraDay Profits": "1,883.57",
+            "Delivery Profits": "1,807.68"
+        },
+        {
+            "Investment": 9000,
+            "Stocks Acquired": "12000",
+            "IntraDay Profits": "1,784.52",
+            "Delivery Profits": "1,708.99"
+        },
+        {
+            "Investment": 8500,
+            "Stocks Acquired": "11333",
+            "IntraDay Profits": "1,685.33",
+            "Delivery Profits": "1,610.16"
+        },
+        {
+            "Investment": 8000,
+            "Stocks Acquired": "10666",
+            "IntraDay Profits": "1,586.13",
+            "Delivery Profits": "1,511.33"
+        },
+        {
+            "Investment": 7500,
+            "Stocks Acquired": "10000",
+            "IntraDay Profits": "1,487.09",
+            "Delivery Profits": "1,412.64"
+        },
+        {
+            "Investment": 7000,
+            "Stocks Acquired": "9333",
+            "IntraDay Profits": "1,387.91",
+            "Delivery Profits": "1,313.82"
+        },
+        {
+            "Investment": 6500,
+            "Stocks Acquired": "8666",
+            "IntraDay Profits": "1,288.72",
+            "Delivery Profits": "1,215.01"
+        },
+        {
+            "Investment": 6000,
+            "Stocks Acquired": "8000",
+            "IntraDay Profits": "1,189.68",
+            "Delivery Profits": "1,116.32"
+        },
+        {
+            "Investment": 5500,
+            "Stocks Acquired": "7333",
+            "IntraDay Profits": "1,090.48",
+            "Delivery Profits": "1,017.48"
+        },
+        {
+            "Investment": 5000,
+            "Stocks Acquired": "6666",
+            "IntraDay Profits": "991.30",
+            "Delivery Profits": "918.66"
+        },
+        {
+            "Investment": 4500,
+            "Stocks Acquired": "6000",
+            "IntraDay Profits": "892.26",
+            "Delivery Profits": "819.98"
+        },
+        {
+            "Investment": 4000,
+            "Stocks Acquired": "5333",
+            "IntraDay Profits": "793.07",
+            "Delivery Profits": "721.15"
+        },
+        {
+            "Investment": 3500,
+            "Stocks Acquired": "4666",
+            "IntraDay Profits": "693.87",
+            "Delivery Profits": "622.32"
+        },
+        {
+            "Investment": 3000,
+            "Stocks Acquired": "4000",
+            "IntraDay Profits": "594.83",
+            "Delivery Profits": "523.64"
+        },
+        {
+            "Investment": 2500,
+            "Stocks Acquired": "3333",
+            "IntraDay Profits": "495.64",
+            "Delivery Profits": "424.80"
+        },
+        {
+            "Investment": 2000,
+            "Stocks Acquired": "2666",
+            "IntraDay Profits": "396.47",
+            "Delivery Profits": "325.99"
+        },
+        {
+            "Investment": 1500,
+            "Stocks Acquired": "2000",
+            "IntraDay Profits": "297.42",
+            "Delivery Profits": "227.31"
+        },
+        {
+            "Investment": 1000,
+            "Stocks Acquired": "1333",
+            "IntraDay Profits": "198.23",
+            "Delivery Profits": "128.48"
+        }
+    ],
+    "0.8 - 0.85": [
+        {
+            "Investment": 10000,
+            "Stocks Acquired": "12499",
+            "IntraDay Profits": "608.96",
+            "Delivery Profits": "532.94"
+        },
+        {
+            "Investment": 9500,
+            "Stocks Acquired": "11874",
+            "IntraDay Profits": "578.51",
+            "Delivery Profits": "502.83"
+        },
+        {
+            "Investment": 9000,
+            "Stocks Acquired": "11249",
+            "IntraDay Profits": "548.06",
+            "Delivery Profits": "472.73"
+        },
+        {
+            "Investment": 8500,
+            "Stocks Acquired": "10624",
+            "IntraDay Profits": "517.62",
+            "Delivery Profits": "442.64"
+        },
+        {
+            "Investment": 8000,
+            "Stocks Acquired": "9999",
+            "IntraDay Profits": "487.16",
+            "Delivery Profits": "412.52"
+        },
+        {
+            "Investment": 7500,
+            "Stocks Acquired": "9374",
+            "IntraDay Profits": "456.71",
+            "Delivery Profits": "382.43"
+        },
+        {
+            "Investment": 7000,
+            "Stocks Acquired": "8749",
+            "IntraDay Profits": "426.26",
+            "Delivery Profits": "352.33"
+        },
+        {
+            "Investment": 6500,
+            "Stocks Acquired": "8124",
+            "IntraDay Profits": "395.81",
+            "Delivery Profits": "322.24"
+        },
+        {
+            "Investment": 6000,
+            "Stocks Acquired": "7499",
+            "IntraDay Profits": "365.36",
+            "Delivery Profits": "292.13"
+        },
+        {
+            "Investment": 5500,
+            "Stocks Acquired": "6874",
+            "IntraDay Profits": "334.91",
+            "Delivery Profits": "262.04"
+        },
+        {
+            "Investment": 5000,
+            "Stocks Acquired": "6249",
+            "IntraDay Profits": "304.45",
+            "Delivery Profits": "231.92"
+        },
+        {
+            "Investment": 4500,
+            "Stocks Acquired": "5624",
+            "IntraDay Profits": "274.00",
+            "Delivery Profits": "201.83"
+        },
+        {
+            "Investment": 4000,
+            "Stocks Acquired": "4999",
+            "IntraDay Profits": "243.57",
+            "Delivery Profits": "171.73"
+        },
+        {
+            "Investment": 3500,
+            "Stocks Acquired": "4374",
+            "IntraDay Profits": "213.09",
+            "Delivery Profits": "141.62"
+        },
+        {
+            "Investment": 3000,
+            "Stocks Acquired": "3749",
+            "IntraDay Profits": "182.65",
+            "Delivery Profits": "111.52"
+        },
+        {
+            "Investment": 2500,
+            "Stocks Acquired": "3124",
+            "IntraDay Profits": "152.19",
+            "Delivery Profits": "81.43"
+        },
+        {
+            "Investment": 2000,
+            "Stocks Acquired": "2499",
+            "IntraDay Profits": "121.76",
+            "Delivery Profits": "51.33"
+        },
+        {
+            "Investment": 1500,
+            "Stocks Acquired": "1874",
+            "IntraDay Profits": "91.29",
+            "Delivery Profits": "21.23"
+        },
+        {
+            "Investment": 1000,
+            "Stocks Acquired": "1249",
+            "IntraDay Profits": "60.85",
+            "Delivery Profits": "-8.87"
+        }
+    ],
+    "0.8 - 0.9": [
+        {
+            "Investment": 10000,
+            "Stocks Acquired": "12499",
+            "IntraDay Profits": "1,233.37",
+            "Delivery Profits": "1,157.23"
+        },
+        {
+            "Investment": 9500,
+            "Stocks Acquired": "11874",
+            "IntraDay Profits": "1,171.69",
+            "Delivery Profits": "1,095.91"
+        },
+        {
+            "Investment": 9000,
+            "Stocks Acquired": "11249",
+            "IntraDay Profits": "1,110.02",
+            "Delivery Profits": "1,034.60"
+        },
+        {
+            "Investment": 8500,
+            "Stocks Acquired": "10624",
+            "IntraDay Profits": "1,048.35",
+            "Delivery Profits": "973.28"
+        },
+        {
+            "Investment": 8000,
+            "Stocks Acquired": "9999",
+            "IntraDay Profits": "986.66",
+            "Delivery Profits": "911.95"
+        },
+        {
+            "Investment": 7500,
+            "Stocks Acquired": "9374",
+            "IntraDay Profits": "924.98",
+            "Delivery Profits": "850.64"
+        },
+        {
+            "Investment": 7000,
+            "Stocks Acquired": "8749",
+            "IntraDay Profits": "863.33",
+            "Delivery Profits": "789.34"
+        },
+        {
+            "Investment": 6500,
+            "Stocks Acquired": "8124",
+            "IntraDay Profits": "801.64",
+            "Delivery Profits": "728.01"
+        },
+        {
+            "Investment": 6000,
+            "Stocks Acquired": "7499",
+            "IntraDay Profits": "739.98",
+            "Delivery Profits": "666.69"
+        },
+        {
+            "Investment": 5500,
+            "Stocks Acquired": "6874",
+            "IntraDay Profits": "678.30",
+            "Delivery Profits": "605.38"
+        },
+        {
+            "Investment": 5000,
+            "Stocks Acquired": "6249",
+            "IntraDay Profits": "616.63",
+            "Delivery Profits": "544.05"
+        },
+        {
+            "Investment": 4500,
+            "Stocks Acquired": "5624",
+            "IntraDay Profits": "554.95",
+            "Delivery Profits": "482.74"
+        },
+        {
+            "Investment": 4000,
+            "Stocks Acquired": "4999",
+            "IntraDay Profits": "493.29",
+            "Delivery Profits": "421.42"
+        },
+        {
+            "Investment": 3500,
+            "Stocks Acquired": "4374",
+            "IntraDay Profits": "431.60",
+            "Delivery Profits": "360.09"
+        },
+        {
+            "Investment": 3000,
+            "Stocks Acquired": "3749",
+            "IntraDay Profits": "369.94",
+            "Delivery Profits": "298.78"
+        },
+        {
+            "Investment": 2500,
+            "Stocks Acquired": "3124",
+            "IntraDay Profits": "308.26",
+            "Delivery Profits": "237.47"
+        },
+        {
+            "Investment": 2000,
+            "Stocks Acquired": "2499",
+            "IntraDay Profits": "246.60",
+            "Delivery Profits": "176.14"
+        },
+        {
+            "Investment": 1500,
+            "Stocks Acquired": "1874",
+            "IntraDay Profits": "184.92",
+            "Delivery Profits": "114.83"
+        },
+        {
+            "Investment": 1000,
+            "Stocks Acquired": "1249",
+            "IntraDay Profits": "123.26",
+            "Delivery Profits": "53.52"
+        }
+    ],
+    "0.85 - 0.9": [
+        {
+            "Investment": 10000,
+            "Stocks Acquired": "11764",
+            "IntraDay Profits": "572.25",
+            "Delivery Profits": "496.22"
+        },
+        {
+            "Investment": 9500,
+            "Stocks Acquired": "11176",
+            "IntraDay Profits": "543.65",
+            "Delivery Profits": "467.98"
+        },
+        {
+            "Investment": 9000,
+            "Stocks Acquired": "10588",
+            "IntraDay Profits": "515.04",
+            "Delivery Profits": "439.71"
+        },
+        {
+            "Investment": 8500,
+            "Stocks Acquired": "10000",
+            "IntraDay Profits": "486.43",
+            "Delivery Profits": "411.47"
+        },
+        {
+            "Investment": 8000,
+            "Stocks Acquired": "9411",
+            "IntraDay Profits": "457.78",
+            "Delivery Profits": "383.15"
+        },
+        {
+            "Investment": 7500,
+            "Stocks Acquired": "8823",
+            "IntraDay Profits": "429.17",
+            "Delivery Profits": "354.91"
+        },
+        {
+            "Investment": 7000,
+            "Stocks Acquired": "8235",
+            "IntraDay Profits": "400.58",
+            "Delivery Profits": "326.66"
+        },
+        {
+            "Investment": 6500,
+            "Stocks Acquired": "7647",
+            "IntraDay Profits": "371.98",
+            "Delivery Profits": "298.40"
+        },
+        {
+            "Investment": 6000,
+            "Stocks Acquired": "7058",
+            "IntraDay Profits": "343.32",
+            "Delivery Profits": "270.10"
+        },
+        {
+            "Investment": 5500,
+            "Stocks Acquired": "6470",
+            "IntraDay Profits": "314.72",
+            "Delivery Profits": "241.86"
+        },
+        {
+            "Investment": 5000,
+            "Stocks Acquired": "5882",
+            "IntraDay Profits": "286.12",
+            "Delivery Profits": "213.59"
+        },
+        {
+            "Investment": 4500,
+            "Stocks Acquired": "5294",
+            "IntraDay Profits": "257.52",
+            "Delivery Profits": "185.34"
+        },
+        {
+            "Investment": 4000,
+            "Stocks Acquired": "4705",
+            "IntraDay Profits": "228.87",
+            "Delivery Profits": "157.05"
+        },
+        {
+            "Investment": 3500,
+            "Stocks Acquired": "4117",
+            "IntraDay Profits": "200.26",
+            "Delivery Profits": "128.79"
+        },
+        {
+            "Investment": 3000,
+            "Stocks Acquired": "3529",
+            "IntraDay Profits": "171.66",
+            "Delivery Profits": "100.53"
+        },
+        {
+            "Investment": 2500,
+            "Stocks Acquired": "2941",
+            "IntraDay Profits": "143.05",
+            "Delivery Profits": "72.27"
+        },
+        {
+            "Investment": 2000,
+            "Stocks Acquired": "2352",
+            "IntraDay Profits": "114.41",
+            "Delivery Profits": "43.98"
+        },
+        {
+            "Investment": 1500,
+            "Stocks Acquired": "1764",
+            "IntraDay Profits": "85.80",
+            "Delivery Profits": "15.73"
+        },
+        {
+            "Investment": 1000,
+            "Stocks Acquired": "1176",
+            "IntraDay Profits": "57.21",
+            "Delivery Profits": "-12.52"
+        }
+    ]
+}
