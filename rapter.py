@@ -53,14 +53,14 @@ class Rapter:
         
         # Send the stock key as an input
         self.stockQueryField.send_keys(self.stockCode)
-        input("Hit Enter to continue  !!!!!!!!!!!")
+        input("")
 
     def GenerateReport(self, 
                        investment :int ,
                        acquirePrice : list,
                        sellPrice : list,
                        investmentScale : int,
-                       minimumInvestment = 1000,
+                       minimumInvestment : int = 1000,
                        ):
         # Investment Amount Eg :  5000
         # Acquire Price Eg : 0.80
@@ -124,7 +124,7 @@ class Rapter:
             investment -= investmentScale
         
         # with open('report.json','w') as text : text.write(json.dumps(stockDict))
-        return True
+        return stockDict
     
     
     def fetchChart(self): pass
@@ -135,9 +135,9 @@ class Rapter:
 rap = Rapter(stockCode="GTLINRA")
 connect = rap.FireConnection()
 print(rap.GenerateReport(
-    investment= 10000,
-    acquirePrice=[0.75, 0.80, 0.85],
-    sellPrice= [0.80, 0.85 ,0.90],
-    investmentScale= 500,
-    minimumInvestment= 1000,
+    investment = 10000,
+    acquirePrice = [0.75, 0.80, 0.85],
+    sellPrice = [0.80, 0.85 ,0.90],
+    investmentScale = 500,
+    minimumInvestment = 1000,
 ))
