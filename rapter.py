@@ -3,7 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-import json
+from banner import RapterBanner
+from raptor_charts import RaptorCharts
 
 
 
@@ -11,6 +12,7 @@ import json
 # Rapter Class declaration
 class Rapter:
     def __init__(self, stockCode) -> None:
+        RapterBanner()
         # Declaring baseUrl and stockcodes
         self.targetUrl =  "https://upstox.com/calculator/brokerage-calculator/"
         self.stockCode = stockCode
@@ -33,6 +35,8 @@ class Rapter:
         
         # Driver declaration.
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+        
+        self.raptorCharts = RaptorCharts(stockCode= stockCode)
         
     def FireConnection(self):
 
@@ -91,13 +95,8 @@ class Rapter:
             # Reading Value
             self.intraButton.click() 
             intraDayProfit = self.netProfit.text[2:]
-            
-            
             self.deliveryButton.click()
             DeliveryProfit = self.netProfit.text[2:]
-            
-            
-            
             # returning the analysed data
             return (total_stocks, intraDayProfit, DeliveryProfit)
         
@@ -124,7 +123,8 @@ class Rapter:
             investment -= investmentScale
         
         # with open('report.json','w') as text : text.write(json.dumps(stockDict))
-        return stockDict
+        self.raptorCharts.createChart(stockDict)
+        return True
     
     
     def fetchChart(self): pass
@@ -133,7 +133,12 @@ class Rapter:
     
 
 rap = Rapter(stockCode="GTLINRA")
+
+
+
 connect = rap.FireConnection()
+
+
 print(rap.GenerateReport(
     investment = 10000,
     acquirePrice = [0.75, 0.80, 0.85],
