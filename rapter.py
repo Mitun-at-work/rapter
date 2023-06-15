@@ -6,9 +6,6 @@ from selenium.webdriver.common.by import By
 from banner import RapterBanner
 from raptor_charts import RaptorCharts
 
-
-
-
 # Rapter Class declaration
 class Rapter:
     def __init__(self, stockCode) -> None:
@@ -39,7 +36,6 @@ class Rapter:
         self.raptorCharts = RaptorCharts(stockCode= stockCode)
         
     def FireConnection(self):
-
         # Initialising Window
         self.driver.get(self.targetUrl)
         
@@ -54,7 +50,6 @@ class Rapter:
         self.intraButton = self.driver.find_element(By.XPATH, self.intraDayXpath)
         self.netProfit = self.driver.find_element(By.XPATH, self.netProfitXpath)
 
-        
         # Send the stock key as an input
         self.stockQueryField.send_keys(self.stockCode)
         input("")
@@ -72,7 +67,6 @@ class Rapter:
         # price Scale Eg : 500 (Linear Investment Range)
         
         stockDict = {}
-        
         def analyseProfits(
             investment,
             buyPrice,
@@ -100,6 +94,7 @@ class Rapter:
             # returning the analysed data
             return (total_stocks, intraDayProfit, DeliveryProfit)
         
+        # Iterating over the investment 
         while investment >= minimumInvestment : 
             for primaryPoint in range(len(acquirePrice)) :
                 for secondaryPoint in range(len(sellPrice)) :
@@ -121,28 +116,17 @@ class Rapter:
                     }
                     stockDict[generatedKey].append(dataDict)
             investment -= investmentScale
-        
         # with open('report.json','w') as text : text.write(json.dumps(stockDict))
         self.raptorCharts.createChart(stockDict)
         return True
     
     
-    def fetchChart(self): pass
-    
-    
-    
-
 rap = Rapter(stockCode="GTLINRA")
-
-
-
-connect = rap.FireConnection()
-
-
-print(rap.GenerateReport(
+rap.FireConnection()
+rap.GenerateReport(
     investment = 10000,
     acquirePrice = [0.75, 0.80, 0.85],
     sellPrice = [0.80, 0.85 ,0.90],
     investmentScale = 500,
     minimumInvestment = 1000,
-))
+)

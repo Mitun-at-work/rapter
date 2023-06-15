@@ -1,5 +1,5 @@
-import numpy as np
 import os
+import numpy as np
 import matplotlib.pyplot as plt 
 from matplotlib.backends.backend_pdf import PdfPages
 
@@ -10,8 +10,7 @@ class RaptorCharts:
         self.stockCode = stockCode
         self.imgDirectory = f"{os.curdir}/reports"
         self.plots = []
-        
-        
+
     # Creating charts to the data
     def createChart(
         self,
@@ -48,14 +47,11 @@ class RaptorCharts:
                 ax.set_title(plotTitle)
                 ax.set_xticks(x + width, plotData["Investment"] )
                 ax.legend(loc='upper left', ncols=3)
-                ax.set_ylim(0,investedAmount[initialPoint : seondaryPoint][0] + 2500)
+                ax.set_ylim(0, plotData['Investment'][0] + 2000)
                 self.plots.append(fig)
                 initialPoint += intrevalLength
                 seondaryPoint += intrevalLength
                 self.count +=1
-                
-            # Plotting the MatplotLib Graphs
-        
         # Initialising & modifiying Inputs    
         # Iterating over the stock keys to frame the data
         for stockKeys in stockData.keys() :
