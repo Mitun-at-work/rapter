@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from banner import RapterBanner
-from raptor_charts import RaptorCharts
+from raptor_analytics import RaptorAnalytics
 
 # Rapter Class declaration
 class Rapter:
@@ -33,7 +33,7 @@ class Rapter:
         # Driver declaration.
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         
-        self.raptorCharts = RaptorCharts(stockCode= stockCode)
+        self.raptorCharts = RaptorAnalytics(stockCode= stockCode)
         
     def FireConnection(self):
         # Initialising Window
@@ -116,7 +116,6 @@ class Rapter:
                     }
                     stockDict[generatedKey].append(dataDict)
             investment -= investmentScale
-        # with open('report.json','w') as text : text.write(json.dumps(stockDict))
         self.raptorCharts.createChart(stockDict)
         return True
     

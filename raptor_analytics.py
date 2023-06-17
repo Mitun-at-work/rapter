@@ -2,14 +2,15 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt 
 from matplotlib.backends.backend_pdf import PdfPages
-
+from rapter_manual import RaptorManual
 
 # Chart Plotting Functions
-class RaptorCharts:        
+class RaptorAnalytics:        
     def __init__(self, stockCode) -> None:
         self.stockCode = stockCode
-        self.imgDirectory = f"{os.curdir}/reports"
         self.plots = []
+        self.raptorManual = RaptorManual(stockCode= stockCode)
+        self.imgDirectory = f"{os.curdir}/reports"
 
     # Creating charts to the data
     def createChart(
@@ -55,7 +56,6 @@ class RaptorCharts:
         # Initialising & modifiying Inputs    
         # Iterating over the stock keys to frame the data
         for stockKeys in stockData.keys() :
-            print(stockKeys)
             currentDict = stockData[stockKeys]
             investedAmount = [ x['Investment'] for  x in currentDict ]
             intraDayProfit = [ float(x['IntraDay Profits'].replace(',','')  ) for  x in currentDict ] 
@@ -65,6 +65,9 @@ class RaptorCharts:
                 investedAmount = investedAmount,
                 intraDayProfits = intraDayProfit,
                 deliveryProfits = deliveryProfit
+            )
+            self.raptorManual.generateManual(
+                
             )
         with PdfPages(f'reports/{self.stockCode}.pdf') as pdf:
             for plot in self.plots:
